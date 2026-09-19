@@ -1,20 +1,41 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# HomeAssist
 
-# Run and deploy your AI Studio app
+HomeAssist is a full-stack web application that connects customers with local service workers. Users can discover services, search for workers, make bookings, submit complaints, manage favorites, and leave reviews. Workers can manage their profiles, bookings, services, and reviews, while administrators can manage users, workers, services, bookings, complaints, and reviews.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/c418c86c-61c7-471a-9b37-6ab8cad86763
+* Customer and worker registration/login
+* Search and discover local workers and services
+* Service booking and booking management
+* Worker profiles and digital visiting cards
+* Favorites and reviews
+* Complaint management
+* Admin dashboard and management
+* Worker approval and management
+* Notifications
+* Responsive web interface
+
+## Tech Stack
+
+* **Frontend:** React, TypeScript, Vite
+* **Backend:** Node.js, TypeScript
+* **Database:** Application datastore
+* **Styling:** CSS
+* **Authentication:** Role-based authentication
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+npm run dev
+```
 
+## Live Demo
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**HomeAssist:**
+https://homeassist-926030920418.asia-southeast1.run.app
+
+## Repository
+
+**GitHub:**
+https://github.com/jashwanthodapelli/HomeAssist
