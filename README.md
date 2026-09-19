@@ -15,14 +15,6 @@ HomeAssist is a full-stack web application that connects customers with local se
 * Notifications
 * Responsive web interface
 
-## Tech Stack
-
-* **Frontend:** React, TypeScript, Vite
-* **Backend:** Node.js, TypeScript
-* **Database:** Application datastore
-* **Styling:** CSS
-* **Authentication:** Role-based authentication
-
 ## Run Locally
 
 ```bash
