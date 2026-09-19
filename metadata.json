@@ -1,0 +1,7 @@
+{
+  "name": "HomeAssist",
+  "description": "Trusted local worker finder and home-service booking platform. Find. Trust. Book.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
